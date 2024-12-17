@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **Portfolio Website**
 
-## Getting Started
+A personal portfolio website built using **Next.js** to showcase my skills, projects, and experience as a software engineer. This project serves as both a demonstration of my technical expertise and a platform for sharing my professional journey.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## **Table of Contents**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Project Structure](#project-structure)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Contact](#contact)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## **Overview**
 
-## Learn More
+This portfolio website is designed to highlight my professional skills, showcase my projects, and provide an easy way for potential collaborators, recruiters, or clients to reach out. It is built with a responsive and user-friendly interface, ensuring a seamless browsing experience across all devices.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## **Features**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **About Me:** A dedicated section highlighting my background, skills, and expertise.
+- **Projects:** A detailed showcase of my work, including live demos and GitHub links.
+- **Skills & Tools:** A comprehensive list of technologies I’m proficient in.
+- **Contact Form:** A simple and effective way for users to get in touch.
+- **Responsive Design:** Optimized for desktops, tablets, and mobile devices.
+- **SEO-Friendly:** Implemented best practices for search engine optimization (SEO).
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## **Technologies Used**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Styling:** CSS Modules / Tailwind CSS
+- **Hosting:** Vercel
+- **Other Tools:** React, JavaScript (ES6+), Git
+
+---
+
+## **Installation**
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/portfolio-website.git
