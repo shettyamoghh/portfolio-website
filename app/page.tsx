@@ -1,5 +1,6 @@
 import Clients from "@/components/Clients"
 import Experience from "@/components/Experience"
+import Footer from "@/components/Footer"
 import Grid from "@/components/Grid"
 import Hero from "@/components/Hero"
 import Projects from "@/components/Projects"
@@ -17,6 +18,7 @@ export default function Home() {
         <Projects />
         <Clients />
         <Experience />
+        <Footer />
       </div>
     </main>
   )
