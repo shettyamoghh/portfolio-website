@@ -20,6 +20,9 @@ const Experience = () => {
                     <div className='flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2'>
                         <img src={card.thumbnail} alt={card.thumbnail} className='lg:w-32 md:w-20 w-16'/>
                         <div className='lg:ms-5'>
+                            {/* <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base">
+                                {card.company}
+                            </div> */}
                             <h1 className='text-start text-xl md:text-2xl font-bold'>
                                 {card.title}
                             </h1>
