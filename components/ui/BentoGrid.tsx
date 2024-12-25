@@ -3,8 +3,9 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
-import Lottie from "react-lottie";
-import { useState } from "react";
+import dynamic from 'next/dynamic';
+const DynamicPlayer = dynamic(() => import('lottie-react'), { ssr: false });
+import { useState, useEffect } from "react";
 import animationData from '@/data/confetti.json';
 import { IoCopyOutline } from "react-icons/io5";
 import MagicButton from "./MagicButton";
@@ -52,9 +53,13 @@ export const BentoGridItem = ({
   
   const [copied, setCopied] = useState(false)
   const handleCopy = () => {
-    navigator.clipboard.writeText('shettyamogh04@gmail.com');
-    setCopied(true);
-  }
+    if (typeof navigator !== "undefined" && navigator.clipboard) {
+      navigator.clipboard.writeText('shettyamogh04@gmail.com');
+      setCopied(true);
+    } else {
+      console.warn('Clipboard API is not available');
+    }
+  };
   
   return (
     <div
@@ -124,18 +129,18 @@ export const BentoGridItem = ({
 
         {id === 6 && (
           <div className="mt-5 relative">
-            <div className={`absolute -bottom-5 right-0`}>
-              <Lottie options={{
-                loop: copied,
-                autoplay: copied,
-                animationData,
-                rendererSettings: {
-                  preserveAspectRatio: 'xMidYMid slice',
-                }
-              }}/>
-            </div>
-            <MagicButton 
-              title={copied ? 'Email copied!' : 'Copy my email'}
+            {copied && (
+              <div className="absolute inset-0 flex items-center justify-center">
+                <DynamicPlayer
+                  autoplay
+                  loop={false}
+                  animationData={animationData}
+                  style={{ height: "200px", width: "200px" }}
+                />
+              </div>
+            )}
+            <MagicButton
+              title={copied ? "Email copied!" : "Copy my email"}
               icon={<IoCopyOutline />}
               position="left"
               otherClasses="bg-[#161a31]"

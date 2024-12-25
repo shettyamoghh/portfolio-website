@@ -72,19 +72,19 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Let Him Cook AI",
+      des: "Web application that generates delicious recipes based on your ingredients, powered by Claude's API.",
+      img: "/p2.png",
+      iconLists: ["/re.svg", "/claude.svg", "/html.svg", "/css.svg", "/js.svg"],
+      link: "https://lethimcook-ai.netlify.app/",
+    },
+    {
+      id: 2,
       title: "CRUD To-Do List",
       des: "Keep track of your tasks using this simple to-do list made with REACT.",
       img: "/p1.png",
       iconLists: ["/re.svg", "/html.svg", "/css.svg", "/js.svg"],
       link: "https://shetty-todolist.netlify.app/",
-    },
-    {
-      id: 2,
-      title: "title",
-      des: "description",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/shettyamoghh",
     },
     // {
     //   id: 3,
@@ -209,6 +209,7 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/shettyamoghh"
     },
     {
       id: 2,
