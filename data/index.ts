@@ -8,17 +8,17 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "Currently a Junior majoring in Computer Science, at Arizona State University.",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/b1.png",
       spareImg: "",
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Travelled to 22 different countries and counting!",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -28,8 +28,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "making use of",
+      description: "Here is what I am currently",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Passionate about tech, personal finance, and productivity.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -49,8 +49,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Learning how to integrate artificial intelligence into web applications",
+      description: "January 2025",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -73,7 +73,7 @@ export const navItems = [
     {
       id: 1,
       title: "Let Him Cook AI",
-      des: "Web application that generates delicious recipes based on your ingredients, powered by Claude's API.",
+      des: "React web-application that generates delicious recipes based on your ingredients, powered by Claude's API.",
       img: "/p2.png",
       iconLists: ["/re.svg", "/claude.svg", "/html.svg", "/css.svg", "/js.svg"],
       link: "https://lethimcook-ai.netlify.app/",
@@ -81,7 +81,7 @@ export const navItems = [
     {
       id: 2,
       title: "CRUD To-Do List",
-      des: "Keep track of your tasks using this simple to-do list made with REACT.",
+      des: "Keep track of your tasks using this simple to-do list made with React. The tasks never end huh?",
       img: "/p1.png",
       iconLists: ["/re.svg", "/html.svg", "/css.svg", "/js.svg"],
       link: "https://shetty-todolist.netlify.app/",
@@ -197,11 +197,11 @@ export const navItems = [
     },
     {
       id: 4,
-      company: "HAMCO Arabia PSD",
-      title: "Sales & Marketing Intern",
-      desc: "Revamped company branding and website to strengthen digital presence and improve customer engagement, thus boosting sales.",
+      company: "Visionary",
+      title: "Founder & CTO",
+      desc: "Building a SaaS to help students consolidate their information using AI, making the college-application process seamless and stress-free. (Coming Soon)",
       className: "md:col-span-2",
-      thumbnail: "/hamco-logo.png",
+      thumbnail: "/vzn-logo.png",
     },
   ];
   
@@ -212,11 +212,8 @@ export const navItems = [
       link: "https://github.com/shettyamoghh"
     },
     {
-      id: 2,
-      img: "/twit.svg",
-    },
-    {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/amogh-shetty-929229291/"
     },
   ];
