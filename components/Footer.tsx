@@ -11,10 +11,10 @@ const Footer = () => {
             <h1 className='heading lg:max-w-[80vw]'>
                 Interested in <span className='text-purple'>collaborating</span> or learning more?
             </h1>
-            <p className='text-white-200 md:mt-10 my-5 text-center'>Feel free to reach out - I'd love to connect!</p>
+            <p className='text-white-200 md:mt-10 my-5 text-center'>Feel free to reach out - I&apos;d love to connect!</p>
             <a href="mailto:shettyamogh04@gmail.com">
                 <MagicButton 
-                    title="Let's connect"
+                    title="Let&apos;s connect"
                     icon={<FaLocationArrow />}
                     position="right"
                 />
