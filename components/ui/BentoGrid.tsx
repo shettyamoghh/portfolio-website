@@ -5,7 +5,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import dynamic from 'next/dynamic';
 const DynamicPlayer = dynamic(() => import('lottie-react'), { ssr: false });
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import animationData from '@/data/confetti.json';
 import { IoCopyOutline } from "react-icons/io5";
 import MagicButton from "./MagicButton";
