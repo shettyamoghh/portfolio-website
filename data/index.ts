@@ -46,13 +46,12 @@ export const navItems = [
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
-  
     {
       id: 5,
       title: "Learning how to integrate artificial intelligence into web applications",
       description: "January 2025",
       className: "md:col-span-3 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 opacity-20 xl:opacity-70",
       titleClassName: "justify-center md:justify-start lg:justify-center",
       img: "/b5.svg",
       spareImg: "/grid.svg",
