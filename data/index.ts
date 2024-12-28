@@ -105,32 +105,27 @@ export const navItems = [
   
   export const testimonials = [
     {
-      quote:
-        "insert testimonial",
+      quote: "insert testimonial",
       name: "Gaurav Hegde",
       title: "Managing Director of HAMCO Arabia PSD",
     },
     {
-      quote:
-        "insert testimonial",
+      quote: "insert testimonial",
       name: "Gaurav Hegde",
       title: "Managing Director of HAMCO Arabia PSD",
     },
     {
-      quote:
-        "insert testimonial",
+      quote: "insert testimonial",
       name: "Gaurav Hegde",
       title: "Managing Director of HAMCO Arabia PSD",
     },
     {
-      quote:
-        "insert testimonial",
+      quote: "insert testimonial",
       name: "Gaurav Hegde",
       title: "Managing Director of HAMCO Arabia PSD",
     },
     {
-      quote:
-        "insert testimonial",
+      quote: "insert testimonial",
       name: "Gaurav Hegde",
       title: "Managing Director of HAMCO Arabia PSD",
     },
@@ -139,33 +134,33 @@ export const navItems = [
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      name: "",
+      img: "/.svg",
+      nameImg: "/.svg",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      name: "",
+      img: "/.svg",
+      nameImg: "/.svg",
     },
     {
       id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
+      name: "",
+      img: "/.svg",
+      nameImg: "/.svg",
     },
     {
       id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
+      name: "",
+      img: "/.svg",
+      nameImg: "/.svg",
     },
     {
       id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      name: ".",
+      img: "/.svg",
+      nameImg: "/.svg",
     },
   ];
   
@@ -213,6 +208,6 @@ export const navItems = [
     {
       id: 3,
       img: "/link.svg",
-      link: "https://www.linkedin.com/in/amogh-shetty-929229291/"
+      link: "https://www.linkedin.com/in/shettyamogh04"
     },
   ];
