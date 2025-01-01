@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "Currently a Junior majoring in Computer Science, at Arizona State University.",
+      title: "Currently a Junior Computer Science student at Arizona State University",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Travelled to 22 different countries and counting!",
+      title: "Seamless communication across various time zones",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Passionate about tech, personal finance, and productivity.",
+      title: "Passionate about tech, personal finance, and productivity",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -192,7 +192,7 @@ export const navItems = [
     {
       id: 4,
       company: "Visionary",
-      title: "Founder & CTO",
+      title: "Full-Stack Developer",
       desc: "Building a SaaS to help students consolidate their information using AI, making the college-application process seamless and stress-free. (Coming Soon)",
       className: "md:col-span-2",
       thumbnail: "/vzn-logo.png",
@@ -208,6 +208,6 @@ export const navItems = [
     {
       id: 3,
       img: "/link.svg",
-      link: "https://www.linkedin.com/in/shettyamogh04"
+      link: "https://www.linkedin.com/in/shetty-amogh"
     },
   ];
