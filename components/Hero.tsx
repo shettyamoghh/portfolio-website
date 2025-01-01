@@ -16,10 +16,10 @@ const Hero = () => {
               </h2>
               <TextGenerateEffect
                 className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                words="Driving Business Growth & Success Through Innovation"
+                words="Innovative Software Solutions for Real-World Impact"
               />
               <p className="text-center md:tracking-wider mb-4 text-blue-100 text-sm md:text-lg lg:text-2xl">
-                Hi, I&apos;m Amogh - a software engineer who cannot stop problem-solving
+                Hi, I&apos;m Amogh Shetty - I build scalable solutions that drive results
               </p>
               <a href="#projects">
                 <MagicButton
