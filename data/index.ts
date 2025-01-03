@@ -79,20 +79,20 @@ export const navItems = [
     },
     {
       id: 2,
+      title: "Tenzies Game",
+      des: "Responsive dice game built with React that's both responsive and fun!",
+      img: "/p3.png",
+      iconLists: ["/re.svg", "/html.svg", "/css.svg", "/js.svg"],
+      link: "https://tenzies-shetty.netlify.app/",
+    },
+    {
+      id: 3,
       title: "CRUD To-Do List",
       des: "Keep track of your tasks using this simple to-do list made with React. The tasks never end huh?",
       img: "/p1.png",
       iconLists: ["/re.svg", "/html.svg", "/css.svg", "/js.svg"],
       link: "https://shetty-todolist.netlify.app/",
     },
-    // {
-    //   id: 3,
-    //   title: "title",
-    //   des: "description",
-    //   img: "/p3.svg",
-    //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    //   link: "https://github.com/shettyamoghh",
-    // },
     // {
     //   id: 4,
     //   title: "title",
