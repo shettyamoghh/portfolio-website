@@ -168,7 +168,7 @@ export const navItems = [
     {
       id: 1,
       company: "TAMID @ ASU",
-      title: "Technology Consultant",
+      title: "SWE Consultant",
       desc: "Developing front-end and back-end systems for various startups and companies through TAMID's Tech Engagements.",
       className: "md:col-span-2",
       thumbnail: "/tamid-logo.png",
